@@ -1,0 +1,48 @@
+@media screen and (min-width: 50px) {	
+
+	body {
+		font-size: 11pt;
+	}
+
+	.mainnav {
+		width: 100%;
+	}
+
+	#subtitle {
+		font-size: 35pt;
+	}
+
+	.title {
+		font-size: 30pt;
+	}
+
+	.desc {
+		font-size: 10pt
+	}
+
+	#me {
+		width: 25%;
+		height: 25%;
+	}
+
+	#pics {
+		display: block;
+		margin: auto;
+		text-align: center;
+	}
+
+	#pics img {
+		width: 40%;
+		height: 40%;
+	}
+
+	.cs {
+		font-size: 45pt;
+	}
+
+	#icons img {
+		width: 10%;
+		height: 10%;
+	}
+
+}
