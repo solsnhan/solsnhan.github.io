@@ -1,17 +1,17 @@
 /* fonts */
 @font-face {
 	font-family: openSansBold;
-	src: url(../_fonts/open_sans/OpenSans-Semibold.ttf);
+	src: url(OpenSans-Semibold.ttf);
 }
 
 @font-face {
 	font-family: openSans;
-	src: url(../_fonts/open_sans/OpenSans-Light.ttf);
+	src: url(OpenSans-Light.ttf);
 }
 
 @font-face {
 	font-family: cabana;
-	src: url(../_fonts/cabana.otf);
+	src: url(cabana.otf);
 }
 
 /* basics */
@@ -90,7 +90,7 @@ nav {
 /* home styles */
 
 #home {
-	background: #fff url(../_media/bg.jpg) no-repeat top left;
+	background: #fff url(bg.jpg) no-repeat top left;
 	background-attachment: fixed;
 	background-size: cover;
 	position: left;
