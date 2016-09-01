@@ -155,14 +155,11 @@ a:hover {
 	color: #fff;
 }
 
-#pics div {
-	text-align: center;
-}
-
 #pics img {
 	display: inline-block;
 	margin: auto;
 	margin: .5%;
+	text-align: center;
 }
 
 /*extended works styles*/
