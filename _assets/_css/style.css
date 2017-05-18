@@ -314,6 +314,10 @@ div.img {
 
 /* studio c styles */
 
+#role {
+	text-align: center;
+}
+
 /* footer styles */
 footer {
 	display: block;
