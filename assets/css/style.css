@@ -1,17 +1,17 @@
 /* fonts */
 @font-face {
 	font-family: openSansBold;
-	src: url(../_fonts/open_sans/OpenSans-Semibold.ttf);
+	src: url(../fonts/open_sans/OpenSans-Semibold.ttf);
 }
 
 @font-face {
 	font-family: openSans;
-	src: url(../_fonts/open_sans/OpenSans-Light.ttf);
+	src: url(../fonts/open_sans/OpenSans-Light.ttf);
 }
 
 @font-face {
 	font-family: cabana;
-	src: url(../_fonts/cabana.otf);
+	src: url(../fonts/cabana.otf);
 }
 
 /* basics */
