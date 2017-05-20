@@ -4,8 +4,96 @@
 		font-size: 16pt;
 	}
 
+	.toggle-button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    transition: .25s;
+    z-index: 15;
+    top: 15px;
+    left: 15px;
+    margin-bottom: 20px;
+	}
+
+	.toggle-button:hover {
+	    cursor: pointer;
+	}
+	.toggle-button .menu-bar {
+	    position: absolute;
+	    width: 80%;
+	    transition: .5s;
+	}
+
+	.toggle-button .menu-bar-top {
+	    border: 4px solid #282828;
+	    border-bottom: none;
+	    top: 0;
+	}
+
+	.toggle-button .menu-bar-middle {
+	    border: 4px solid #282828;
+	    border-bottom: none;
+	    margin-top: 7px;
+	    margin-bottom: 7px;
+	    top: 4px;
+	}
+
+	.toggle-button .menu-bar-bottom {
+	    border: 4px solid #282828;
+	    border-top: none;
+	    top: 22px;
+	}
+	.button-open .menu-bar-top {
+	    transform: rotate(45deg) translate(8px, 8px);
+	    transition: .5s;
+	}
+	.button-open .menu-bar-middle {
+	    transform: translate(230px);
+	    transition: .1s ease-in;
+	    opacity: 0;
+	}
+	.button-open .menu-bar-bottom {
+	    transform: rotate(-45deg) translate(8px, -7px);
+	    transition: .5s;
+	}
+
 	.mainnav {
-		width: 100%;
+	    background-color:#ef4136;
+	    position: fixed;
+	    top: 0;
+	    height: 100%;
+	    width: 210px;
+	    margin-left: -210px;
+	    font-weight: 700;
+	    overflow: auto;
+	    transition: .25s;
+	    z-index: 10;
+	}
+
+	.menu-show {
+	    margin-left: 0;
+	    border-right: 4px solid white;
+	}
+
+	.menu {
+	    position: relative;
+	    top: 90px;
+	    padding: 0;
+	}
+
+	.menu li {
+    padding: 11px 0;
+    list-style-type: none;
+    margin: 0 0 0 13px;/*deals with yellow hover */
+    display: block;
+    text-align: left;
+    padding-bottom: 8px;
+	}
+
+	.menu li > a{
+	    color: white;
+	    font-size: 20pt;
+	    position: relative;
 	}
 
 	.title {
