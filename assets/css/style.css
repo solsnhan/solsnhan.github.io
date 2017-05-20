@@ -92,7 +92,7 @@ ul {
 /* home styles */
 
 #home {
-	background: #fff url(../_media/bg.jpg) no-repeat top left;
+	background: #fff url(../media/bg.jpg) no-repeat top left;
 	background-attachment: fixed;
 	background-size: cover;
 	position: left;
