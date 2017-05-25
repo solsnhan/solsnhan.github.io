@@ -157,6 +157,10 @@ a:hover {
 	color: #fff;
 }
 
+#pics {
+	text-align: center;
+}
+
 #pics img {
 	display: inline-block;
 	margin: auto;
