@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap');
+
+/* colors
+	dark brown: #66171d;
+	dark red: #cf2022;
+	main red: #fe0000;
+	next red: #ff3334;
+	next red after that: #ff5959;
+	salmon: #ff7f7e;
+	light pink: #ff999a;
+	lighter pink: #ffbfbf;
+	super light pink: #ffd8d9;
+	pinky white: #fef2f2;
+*/
+
+/* basics */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	text-align: left;
+	color: #66171d;
+}
+
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-left: 9%;
+	margin-right: 9%;
+}
+
+p {
+	margin-left: 9%;
+	margin-right: 9%;
+}
+
+/* introduction */
+
+#intro {
+	background-color: #fef2f2;
+	height: 100vh;
+	color: #cf2022;
+}
+
+#title {
+	text-align: center;
+	line-height: 65vh;
+	font-size: 5em;
+	letter-spacing: 0.10em;
+}
+
+.teamInfo {
+	text-align: center;
+	letter-spacing: 0.10em
+}
+
+/* suggestion styles */
+
+.suggestions {
+	padding: 3%; 
+}
+
+#one {
+	background-color: #ffd8d9;
+}
+
+#two {
+	background-color: #ffbfbf;
+}
+
+#three {
+	background-color: #ff999a;
+}
+
+#four {
+	background-color: #ff7f7e;
+}
