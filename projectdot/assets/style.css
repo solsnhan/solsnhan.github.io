@@ -35,6 +35,17 @@ p {
 	margin-right: 9%;
 }
 
+a {
+	text-decoration: none;
+}
+
+footer {
+	display: block;
+	background-color: #fef2f2;
+	padding: 15px 0 15px 15px;
+	text-align: center;
+}
+
 /* introduction */
 
 #intro {
@@ -43,22 +54,40 @@ p {
 	color: #cf2022;
 }
 
+#introText {
+	padding: 15%;
+}
+
 #title {
 	text-align: center;
-	line-height: 65vh;
 	font-size: 5em;
 	letter-spacing: 0.10em;
 }
 
-.teamInfo {
+#teamInfo {
 	text-align: center;
-	letter-spacing: 0.10em
+	font-size: 1.2em;
+	letter-spacing: 0.10em;
+}
+
+#down, #down a {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.2em;
+	color: #cf2022;
+}
+
+#down a:hover {
+	color: #cf2022;
+	opacity: 0.3;
 }
 
 /* suggestion styles */
 
 .suggestions {
 	padding: 3%; 
+	border-bottom: dotted 0.2em #cf2022;
 }
 
 #one {
