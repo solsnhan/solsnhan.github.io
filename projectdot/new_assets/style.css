@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@400;700&display=swap');
+
+/* colors
+	dark brown: #66171d;
+	dark red: #cf2022;
+	main red: #fe0000;
+	next red: #ff3334;
+	next red after that: #ff5959;
+	salmon: #ff7f7e;
+	light pink: #ff999a;
+	lighter pink: #ffbfbf;
+	super light pink: #ffd8d9;
+	pinky white: #fef2f2;
+
+	green: #278F44;
+*/
+
+/* basics */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	text-align: left;
+	color: #66171d;
+}
+
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-left: 9%;
+	margin-right: 9%;
+}
+
+p {
+	margin-left: 9%;
+	margin-right: 9%;
+}
+
+ul {
+	margin-left: 9%;
+	margin-right: 9%; 
+}
+
+/* nested list */
+.sub {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer {
+	display: block;
+	background-color: #fef2f2;
+	padding: 15px 0 15px 15px;
+	text-align: center;
+}
+
+/* back to top 
+    credit: https://codyhouse.co/gem/back-to-top/*/
+.top-button {
+  color: #ffbfbf;
+  text-decoration: none;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 210%;
+}
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  white-space: nowrap;
+  background: rgba(102, 23, 29, 0.8) 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #cf2022;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+
+/* introduction */
+
+#intro {
+	background-color: #fef2f2;
+	height: 100vh;
+	color: #cf2022;
+}
+
+#introText {
+	padding: 15%;
+}
+
+#title {
+	text-align: center;
+	font-size: 5em;
+	letter-spacing: 0.10em;
+}
+
+#teamInfo {
+	text-align: center;
+	font-size: 1.2em;
+	letter-spacing: 0.10em;
+}
+
+#down, #down a {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.2em;
+	color: #cf2022;
+}
+
+#down a:hover {
+	color: #cf2022;
+	opacity: 0.3;
+}
+
+/* menu styles */
+#menu {
+	list-style-type: none;
+	overflow: hidden;
+	text-align: center;
+	padding: 0;
+}
+
+#menu li {
+	display: inline-block;
+	text-align: center;
+	margin: 0.2%;
+}
+
+#menu a {
+	color: #cf2022;
+}
+
+#menu a:hover {
+	color: #cf2022;
+	opacity: 0.3;
+}
+
+/* suggestion styles */
+
+.suggestions {
+	padding: 3%; 
+	border-bottom: dotted 0.2em #cf2022;
+}
+
+#one {
+	background-color: #ffd8d9;
+}
+
+#two {
+	background-color: #ffbfbf;
+}
+
+#three {
+	background-color: #ff999a;
+}
+
+#four {
+	background-color: #ff7f7e;
+}
+
+#five {
+	background-color: #ff5959;
+	color: #ffbfbf;
+}
+
+#six {
+	background-color: #ff3334;
+	color: #ffbfbf;
+}
+
+#seven {
+	background-color: #cf2022;
+	color: #ffbfbf;
+}
+
+/* specific suggestion styles */
+
+.citation {
+	color: #278F44;
+}
+
+.citation:hover {
+	color: #278F44;
+	opacity: 0.3;
+}
