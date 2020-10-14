@@ -1,18 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:wght@400;700&display=swap');
 
 /* colors
 	dark brown: #66171d;
+	
+	darker than that: #731516;
+	darker red: #991c1e;
 	dark red: #cf2022;
 	main red: #fe0000;
-	next red: #ff3334;
-	next red after that: #ff5959;
+	next red: #E83334;
+	next red after that: #F04F4D;
 	salmon: #ff7f7e;
 	light pink: #ff999a;
 	lighter pink: #ffbfbf;
 	super light pink: #ffd8d9;
 	pinky white: #fef2f2;
 
-	green: #278F44;
+	light pastel purple: #AA99BD;
+	purple: #A460B8;
 */
 
 /* basics */
@@ -28,6 +32,12 @@ h1 {
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
 	margin-top: 0;
+	margin-left: 9%;
+	margin-right: 9%;
+}
+
+h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
 	margin-left: 9%;
 	margin-right: 9%;
 }
@@ -184,7 +194,7 @@ footer {
 
 .suggestions {
 	padding: 3%; 
-	border-bottom: dotted 0.2em #cf2022;
+	border-bottom: dotted 0.2em #731516;
 }
 
 #one {
@@ -204,12 +214,11 @@ footer {
 }
 
 #five {
-	background-color: #ff5959;
-	color: #ffbfbf;
+	background-color: #F04F4D;
 }
 
 #six {
-	background-color: #ff3334;
+	background-color: #E83334;
 	color: #ffbfbf;
 }
 
@@ -218,13 +227,68 @@ footer {
 	color: #ffbfbf;
 }
 
+#eight {
+	background-color: #991c1e;
+	color: #ffbfbf;
+}
+
 /* specific suggestion styles */
 
 .citation {
-	color: #278F44;
+	color: #A460B8;
 }
 
 .citation:hover {
-	color: #278F44;
+	color: #A460B8;
 	opacity: 0.3;
+}
+
+.citation-dark {
+	color: #AA99BD;
+}
+
+.citation-dark:hover {
+	color: #AA99BD;
+	opacity: 0.3;
+}
+
+img {
+	width: 60%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+#ig_photos {
+	text-align: center;
+}
+
+.square_img {
+	width: 35%;
+	display: inline-block;
+}
+
+.caption {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: italic;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+table {
+	font-family: 'Open Sans', sans-serif;
+	margin-right: 9%;
+	margin-left: 9%;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 0.5%;
+	border: 0.1em solid #ffd8d9;
+}
+
+tr:nth-child(even) {
+	background-color: #F04F4D;
 }
