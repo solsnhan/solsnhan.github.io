@@ -47,9 +47,33 @@ p {
 	margin-right: 9%;
 }
 
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 50px) {
+  p {
+    font-size: 1.2em;
+  }
+}
+
 ul {
 	margin-left: 9%;
 	margin-right: 9%; 
+}
+
+@media only screen and (min-width: 768px) {
+  li {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (min-width: 50px) {
+  li {
+    font-size: 1.1em;
+  }
 }
 
 /* nested list */
