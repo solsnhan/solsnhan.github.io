@@ -140,17 +140,21 @@ footer {
 
 #introText {
 	padding: 15%;
+	margin: auto;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #title {
 	text-align: center;
-	font-size: 5em;
+	font-size: 6.1em;
 	letter-spacing: 0.10em;
 }
 
 #teamInfo {
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	letter-spacing: 0.10em;
 }
 
@@ -260,12 +264,26 @@ img {
 	display: block;
 }
 
+/* responsive styles for img */
+
+@media only screen and (min-width: 768px) {
+  img {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 50px) {
+  img {
+    width: 80%;
+  }
+}
+
 #ig_photos {
 	text-align: center;
 }
 
 .square_img {
-	width: 35%;
+	width: 38%;
 	display: inline-block;
 }
 
