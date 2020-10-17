@@ -172,7 +172,7 @@ footer {
 
 #title {
 	text-align: center;
-	font-size: 6.1em;
+	font-size: 5.5em;
 	letter-spacing: 0.10em;
 }
 
@@ -281,7 +281,7 @@ footer {
 }
 
 img {
-	width: 60%;
+	width: 50%;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
@@ -292,13 +292,13 @@ img {
 
 @media only screen and (min-width: 768px) {
   img {
-    width: 80%;
+    width: 75%;
   }
 }
 
 @media only screen and (min-width: 50px) {
   img {
-    width: 80%;
+    width: 75%;
   }
 }
 
@@ -326,6 +326,18 @@ table {
 	border-collapse: collapse;
 }
 
+@media only screen and (min-width: 768px) {
+  table {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 50px) {
+  table {
+    font-size: 1.2em;
+  }
+}
+
 th, td {
 	padding: 0.5%;
 	border: 0.1em solid #ffd8d9;
@@ -333,4 +345,8 @@ th, td {
 
 tr:nth-child(even) {
 	background-color: #F04F4D;
+}
+
+#paypal {
+	width: 40%;
 }
