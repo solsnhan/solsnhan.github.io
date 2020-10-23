@@ -3,6 +3,7 @@
 /* colors
 	dark brown: #66171d;
 	
+	darkest red: #751517;
 	darker than that: #731516;
 	darker red: #991c1e;
 	dark red: #cf2022;
@@ -14,12 +15,17 @@
 	lighter pink: #ffbfbf;
 	super light pink: #ffd8d9;
 	pinky white: #fef2f2;
+	super duper light pink: #FEF5F2;
 
 	light pastel purple: #AA99BD;
 	purple: #A460B8;
 */
 
 /* basics */
+
+html {
+	background-color: #FEF5F2;
+}
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -42,9 +48,18 @@ h2 {
 	margin-right: 9%;
 }
 
+h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	margin-left: 9%;
+	margin-right: 9%;
+	text-align: center;
+}
+
 p {
 	margin-left: 9%;
 	margin-right: 9%;
+	overflow-wrap: break-word; 
 }
 
 @media only screen and (min-width: 768px) {
@@ -196,24 +211,24 @@ footer {
 }
 
 /* menu styles */
-#menu {
+.menu {
 	list-style-type: none;
 	overflow: hidden;
 	text-align: center;
 	padding: 0;
 }
 
-#menu li {
+.menu li {
 	display: inline-block;
 	text-align: center;
 	margin: 0.2%;
 }
 
-#menu a {
+.menu a {
 	color: #cf2022;
 }
 
-#menu a:hover {
+.menu a:hover {
 	color: #cf2022;
 	opacity: 0.3;
 }
@@ -247,17 +262,22 @@ footer {
 
 #six {
 	background-color: #E83334;
-	color: #ffbfbf;
+	color: #ffd8d9;
 }
 
 #seven {
 	background-color: #cf2022;
-	color: #ffbfbf;
+	color: #ffd8d9;
 }
 
 #eight {
 	background-color: #991c1e;
-	color: #ffbfbf;
+	color: #ffd8d9;
+}
+
+#nine {
+	background-color: #751517;
+	color: #ffd8d9;
 }
 
 /* specific suggestion styles */
@@ -344,9 +364,13 @@ th, td {
 }
 
 tr:nth-child(even) {
-	background-color: #F04F4D;
+	background-color: #ff7f7e;
 }
 
 #paypal {
 	width: 40%;
+}
+
+#works_cited {
+	text-align: center;
 }
