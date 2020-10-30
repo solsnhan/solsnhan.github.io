@@ -312,13 +312,13 @@ img {
 
 @media only screen and (min-width: 768px) {
   img {
-    width: 75%;
+    width: 70%;
   }
 }
 
 @media only screen and (min-width: 50px) {
   img {
-    width: 75%;
+    width: 70%;
   }
 }
 
@@ -329,6 +329,14 @@ img {
 .square_img {
 	width: 38%;
 	display: inline-block;
+}
+
+.doodles {
+	text-align: center;
+}
+
+.doodle_img {
+	width: 50%;
 }
 
 .caption {
